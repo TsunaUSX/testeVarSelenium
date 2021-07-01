@@ -9,7 +9,7 @@ public class Teste1 {
 	@Test
 	public void main ()
 	{
-		System.out.println(System.getProperty("parametro1"));
-		Assert.assertEquals(System.getProperty("parametro1"), "123454321");
+		System.out.println(System.getProperty("Dparametro1"));
+		Assert.assertEquals("123454321", System.getProperty("Dparametro1"));
 	}
 }
