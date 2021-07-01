@@ -61,10 +61,6 @@
 	</build>
 	
 			
-	<properties>
-    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	<suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>
-    	<skipTests>false</skipTests> 
-	</properties>
+	
 </project>
 
