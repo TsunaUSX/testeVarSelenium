@@ -10,6 +10,6 @@ public class Teste1 {
 	public void main ()
 	{
 		System.out.println(System.getProperty("parametro1"));
-		Assert.assertEquals("123454321", System.getProperty("Dparametro1"));
+		Assert.assertEquals("123454321", System.getProperty("parametro1"));
 	}
 }
