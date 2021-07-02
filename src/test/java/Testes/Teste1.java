@@ -1,5 +1,6 @@
 package Testes;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class Teste1 {
@@ -9,6 +10,6 @@ public class Teste1 {
 	public void main ()
 	{
 		System.out.println(System.getProperty("parametro1"));
-		if (System.getProperty("parametro1").equals("123454321"));
+		Assert.assertTrue(System.getProperty("parametro1").equals("123454321"));
 	}
 }
