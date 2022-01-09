@@ -14,7 +14,7 @@ public class Teste1 {
 	@Test
 	public void main ()
 	{
-		System.out.println("Recebi o parâmetro: " + System.getProperty("parametro1"));
+		System.out.println("Recebi o parametro: " + System.getProperty("parametro1"));
 		Assert.assertTrue(System.getProperty("parametro1").equals("123454321"));
 		System.out.println("Valor boolean: " + Boolean.getBoolean("paramBool"));
 		Assert.assertTrue(Boolean.getBoolean("paramBool"));
@@ -26,4 +26,5 @@ public class Teste1 {
 		.then().log().all().assertThat().statusCode(200).body("scope", equalTo("APP"))
 		.header("server", "Apache/2.4.18 (Ubuntu)").extract().response();
 	}
+	
 }
